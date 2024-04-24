@@ -1,0 +1,32 @@
+{
+  "name": "alias",
+  "version": "0.0.1",
+  "description": "An npm package to set alias for terminal commands and execute them using aliases",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn",
+    "start": "ts-node cli.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himasnhu-at/alias.git"
+  },
+  "keywords": [
+    "terminal",
+    "tools",
+    "developer"
+  ],
+  "author": "himanshu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/himasnhu-at/alias/issues"
+  },
+  "homepage": "https://github.com/himasnhu-at/alias#readme",
+  "dependencies": {
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
